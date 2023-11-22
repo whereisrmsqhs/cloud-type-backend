@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.io.File;
 
+@CrossOrigin(origins = "https://web-cloud-type-frontend-5mk12alp9e3gas.sel5.cloudtype.app/")
 @RestController
 public class InputController {
 
