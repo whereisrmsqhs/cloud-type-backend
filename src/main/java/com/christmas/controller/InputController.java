@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.io.File;
 
-@CrossOrigin(origins = "<http://localhost:8080>")
+@CrossOrigin(origins = "*")
 @RestController
 public class InputController {
 
